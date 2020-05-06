@@ -1,0 +1,27 @@
+.footer {
+  color: $backWhite;
+  background-color: #4d4d4d;
+  padding: 50px 0px;
+  &__contents {
+    width: 998px;
+    margin: 0px auto;
+    display: flex;
+    &__contact {
+      box-sizing: border-box;
+      float: left;
+      width: 250px;
+      height: 500px;
+      margin-bottom: 50px;
+      border-right: 1px solid $backWhite;
+    }
+    &__access {
+      box-sizing: border-box;
+      float: right;
+      width: 688px;
+      height: 500px;
+      margin-left: 60px;
+      margin-bottom: 50px;
+      overflow: hidden;
+    }
+  }
+}
