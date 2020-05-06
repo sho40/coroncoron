@@ -4,4 +4,19 @@ Rails.application.routes.draw do
   
   # Top画面
   resources :homes, only: [:index]
+
+  # タレント画面
+  resources :talents, only: [:index]
+
+  # ニュース画面
+  resources :news, only: [:index]
+
+  # オーディション画面
+  resources :audition, only: [:index]
+
+  # 会社概要画面
+  resources :company, only: [:index]
+
+  # お問い合わせ画面
+  resources :contact, only: [:index]
 end
