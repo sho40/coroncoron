@@ -22,6 +22,10 @@
       }
       &__mail {
         font-size: medium;
+        .btn-mail {
+          color: $backWhite;
+          text-decoration: none;
+        }
       }
     }
     &__access {
