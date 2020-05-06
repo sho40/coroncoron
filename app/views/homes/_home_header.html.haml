@@ -1,1 +1,9 @@
-takamura yoshifumi
+.header
+  .header__block
+    = link_to "", root_path, class: "header__block__logo"
+    .header__block__list
+      = link_to "talent", {}, class: "header__block__list__talent", id: "header_li"
+      = link_to "news", {}, class: "header__block__list__news",id: "header_li"
+      = link_to "audition", {}, class: "header__block__list__audition",id: "header_li"
+      = link_to "company", {}, class: "header__block__list__company",id: "header_li"
+      = link_to "contact", {}, class: "header__block__list__contact",id: "header_li"
