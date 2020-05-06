@@ -13,6 +13,17 @@
       height: 500px;
       margin-bottom: 50px;
       border-right: 1px solid $backWhite;
+      &__title {
+        font-size: x-large;
+        margin-bottom: 20px;
+      }
+      &__number {
+        margin-bottom: 10px;
+        font-size: medium;
+      }
+      &__mail {
+        font-size: medium;
+      }
     }
     &__access {
       box-sizing: border-box;
