@@ -1,0 +1,33 @@
+.header {
+  width: 100%;
+  padding: 20px 0px 20px 0px;
+  background-color: $backWhite;
+  &__block {
+    display: flex;
+    height: 50px;
+    width: 60%;
+    margin: auto;
+    &__logo {
+      width: 204px;
+      background: $mainRed;
+    }
+    &__list {
+      margin-left: 5%;
+      display: flex;
+    }
+    #header_li {
+      margin: 0px 0.8%;
+      width: 7.5rem;
+      text-align: center;
+      text-decoration: none;
+      color: #111111;
+      line-height: 50px;
+      box-sizing: border-box;
+      font-weight: bold;
+      transition: border-bottom 0.3s;
+      &:hover {
+        border-bottom: solid 5px $mainRed;
+      }
+    }
+  }
+}

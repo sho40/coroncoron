@@ -1,0 +1,13 @@
+.home-images {
+  width: 100%;
+  background-color: $backWhite;
+  padding-bottom: 2rem;
+  &__box {
+    width: 60%;
+    margin: auto;
+    //以下仮
+    background: #333333;
+    height: 500px;
+    //ここまで
+  }
+}
