@@ -1,8 +1,10 @@
 .home_contents {
   background: $backGray;
   width: 100%;
+  padding: 2rem 0;
   &__box {
     width: 60%;
     margin: auto;
+    display: flex;
   }
 }
