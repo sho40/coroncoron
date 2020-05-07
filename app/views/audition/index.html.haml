@@ -7,5 +7,53 @@
   .audition-wrapper__contents
     .audition-wrapper__contents__title
       タレント
-
+    .audition-wrapper__contents__main
+      %dl.article
+        %dt 応募資格
+        %dd 10代、20代の男女
+      %dl.article
+        %dt 応募方法
+        %dd
+          .audition-wrapper__contents__main__text
+            郵送、またはメール送信で応募して下さい。
+          .audition-wrapper__contents__main__title
+            【E-mailでの応募】
+          %ul.audition-wrapper__contents__main__list
+            %li ・お名前
+            %li ・年齢
+            %li ・住所
+            %li ・連絡先
+            %li ・身長
+            %li ・3サイズ
+            %li ・志望動機
+            %li ・目標
+          .audition-wrapper__contents__main__text
+            上記をメールに明記の上、写真2枚（バストアップ・全身1枚ずつ）を添付して
+            %a{:href => "mailto:coroncoron@coron2.jp", class: "mail-link"} こちら
+            からご応募下さい。
+          .audition-wrapper__contents__main__title
+            【郵送での応募】
+          %ul.audition-wrapper__contents__main__list
+            %li ・身長
+            %li ・体重
+            %li ・B・W・Hサイズ
+          .audition-wrapper__contents__main__text
+            上記を履歴書に明記の上、写真2枚（バストアップ・全身1枚ずつ）を貼付して応募送付先まで郵送して下さい。
+          %ul.audition-wrapper__contents__main__list
+            %li ※写真は撮影後3ヶ月以内
+            %li ※面接にお越しいただきたい方のみ、こちらからご連絡差し上げます。
+            %li ※応募書類の返却は致しませんので、ご了承下さい。
+      %dl.article
+        %dt 選考方法
+        %dd
+          %ul.audition-wrapper__contents__main__list
+            %li ・第１次審査 ＝ 書類選考 (合格者のみ通知)
+            %li ・第２次審査 ＝ 面接選考
+      %dl.article
+        %dt 応募送付先
+        %dd
+          %ul.audition-wrapper__contents__main__list
+            %li 〒150-0001
+            %li 東京都渋谷区神宮前6-17-10　原宿アールビル8階
+            %li 株式会社エイジアプロモーション「新人募集係」
 = render 'homes/footer'
