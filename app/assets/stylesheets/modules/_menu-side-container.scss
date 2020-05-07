@@ -19,5 +19,6 @@
   &__box:hover {
     color: $backWhite;
     background-color: $mainRed;
+    transition: color 0.5s, background-color 0.5s;
   }
 }
