@@ -1,0 +1,33 @@
+.btn-audition-block {
+  text-decoration: none;
+  cursor: pointer;
+}
+.audition_block {
+  box-sizing: border-box;
+  padding: 10%;
+  transition: color 0.5s, background-color 0.5s;
+  background-color: $backWhite;
+  width: 16rem;
+  margin: 10% 0px;
+  color: $mainRed;
+  &__title {
+    font-size: x-large;    
+  }
+  &__sub-title {
+    font-size: small;
+  }
+  &__list {
+    font-size: small;
+    color: #000;
+    transition: color 0.5s, background-color 0.5s;
+  }
+}
+.audition_block:hover {
+  color: #fff;
+  background-color: $mainRed;
+}
+.audition_block:hover .audition_block__list {
+  color: #fff;
+}
+
+
