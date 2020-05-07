@@ -23,11 +23,11 @@
   }
 }
 .audition_block:hover {
-  color: #fff;
+  color: $backWhite;
   background-color: $mainRed;
 }
 .audition_block:hover .audition_block__list {
-  color: #fff;
+  color: $backWhite;
 }
 
 
