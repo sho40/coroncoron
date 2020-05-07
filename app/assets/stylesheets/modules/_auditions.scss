@@ -1,0 +1,36 @@
+.audition-wrapper {
+  padding: 1% 0;
+  background-color: $backGray;
+  &__title {
+    padding: 3% 0 1% 0;
+    font-size: x-large;
+    font-weight: bold;
+    color: $mainRed;
+    width: 950px;
+    margin: 0 auto;
+  }
+  &__sub-title {
+    font-size: small;
+    width: 950px;
+    margin: 1% auto;
+    padding-bottom: 1%;
+  }
+  &__contents {
+    margin-top: 2%;
+    width: 950px;
+    margin: 0 auto;
+    &__title {
+      font-size: large;
+      font-weight: bold;
+      width: fit-content;
+      background-color: $backWhite;
+      padding: 1% 5%;
+      border-radius: 10px
+    }
+    &__title::after {
+      content: 'への応募';
+      font-size: small;
+      font-weight: 500;
+    }
+  }
+}
