@@ -3,8 +3,8 @@
   background-color: #4d4d4d;
   padding: 50px 0px;
   &__contents {
-    width: 998px;
-    margin: 0px auto;
+    width: 950px;
+    margin: 0 auto;
     display: flex;
     &__contact {
       box-sizing: border-box;
@@ -15,10 +15,6 @@
       &__title {
         font-size: x-large;
         margin-bottom: 20px;
-      }
-      &__number {
-        margin-bottom: 10px;
-        font-size: medium;
       }
       &__mail {
         font-size: medium;
