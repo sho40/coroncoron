@@ -3,8 +3,18 @@
   width: 100%;
   padding: 2rem 0;
   &__box {
-    width: 60%;
+    width: 60vw;
     margin: auto;
     display: flex;
+    &__left { // 仮
+      &__topic {
+        width: 16rem;
+        height: 1000px;
+        background: #111111;
+      }
+    }
+    &__right {
+      margin-left: 2rem;
+    }
   }
 }
