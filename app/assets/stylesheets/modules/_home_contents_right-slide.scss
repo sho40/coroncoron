@@ -1,5 +1,15 @@
-.home_contents__box__right__slide {
+.home_contents__box__right__slider {
   width: calc(60vw - 18rem);
-  height: 20rem;
-  background: #111111;
+  height: 300px;
+  overflow: hidden;
+  &__wrapper {
+    width: 100%;
+    display: flex;
+  }
+}
+.slide-item {
+  object-fit: cover;
+  width: calc(60vw - 18rem);
+  height: 300px;
+  
 }
