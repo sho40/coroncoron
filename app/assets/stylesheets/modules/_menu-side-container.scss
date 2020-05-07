@@ -1,0 +1,18 @@
+.menu-side-container {
+  font-size: medium;
+  .btn-menu-side-container {
+    text-decoration: none;
+  }
+  &__news-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: $backWhite;
+    padding: 5%;
+    &__new {
+      color: $mainRed;
+    }
+    &__icon {
+      color: Gray;
+    }
+  }
+}
