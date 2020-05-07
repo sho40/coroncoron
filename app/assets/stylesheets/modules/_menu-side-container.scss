@@ -3,16 +3,19 @@
   .btn-menu-side-container {
     text-decoration: none;
   }
-  &__news-box {
+  &__box {
     display: flex;
     justify-content: space-between;
     background-color: $backWhite;
     padding: 5%;
-    &__new {
-      color: $mainRed;
-    }
+    border-bottom: solid 1px #e8e8e8;
+    color: $mainRed;
     &__icon {
       color: Gray;
     }
+  }
+  &__box:hover {
+    color: $backWhite;
+    background-color: $mainRed;
   }
 }
