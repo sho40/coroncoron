@@ -2,6 +2,7 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 @import "config/color";
+// トップページ
 @import "modules/homes";
 @import "modules/header";
 @import "modules/home_top_images";
@@ -9,3 +10,4 @@
 @import "modules/footer";
 @import "modules/audition_block";
 @import "modules/menu-side-container";
+@import "modules/twitter_timeline";
