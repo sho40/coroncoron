@@ -1,0 +1,48 @@
+.footer {
+  color: $backWhite;
+  background-color: #4d4d4d;
+  padding: 50px 0px;
+  &__contents {
+    width: 950px;
+    margin: 0 auto;
+    display: flex;
+    &__contact {
+      box-sizing: border-box;
+      width: 250px;
+      height: 500px;
+      margin-bottom: 50px;
+      border-right: 1px solid $backWhite;
+      &__title {
+        font-size: x-large;
+        margin-bottom: 20px;
+      }
+      &__mail {
+        font-size: medium;
+        .btn-mail {
+          color: $backWhite;
+          text-decoration: none;
+        }
+      }
+    }
+    &__access {
+      box-sizing: border-box;
+      width: 688px;
+      height: 500px;
+      margin-left: 60px;
+      margin-bottom: 50px;
+      overflow: hidden;
+      width: 100%;
+      &__title {
+        font-size: x-large;
+        margin-bottom: 20px;
+      }
+      &__address-box {
+        font-size: small;
+        margin-bottom: 20px;
+        .footer-address{
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+}
