@@ -1,0 +1,24 @@
+.menu-side-container {
+  font-size: medium;
+  width: 16rem;
+  margin-bottom: 10%;
+  .btn-menu-side-container {
+    text-decoration: none;
+  }
+  &__box {
+    display: flex;
+    justify-content: space-between;
+    background-color: $backWhite;
+    padding: 5%;
+    border-bottom: solid 1px #e8e8e8;
+    color: $mainRed;
+    &__icon {
+      color: Gray;
+    }
+  }
+  &__box:hover {
+    color: $backWhite;
+    background-color: $mainRed;
+    transition: color 0.5s, background-color 0.5s;
+  }
+}
