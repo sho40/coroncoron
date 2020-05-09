@@ -14,13 +14,11 @@ $(function(){
 
     breakpoints: {
       980: {
-        slidesPerView: 3,
-        spaceBetween: 30
+        slidesPerView: 1,
       },
 
       640: {
-        slidesPerView: 2,
-        spaceBetween: 20
+        slidesPerView: 1,
       }
     },
 
