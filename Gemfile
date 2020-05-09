@@ -65,3 +65,5 @@ gem "haml-rails"
 gem "font-awesome-sass"
 gem 'geocoder'
 gem 'jquery-rails'
+gem 'activeadmin'
+gem 'devise'
