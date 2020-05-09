@@ -8,8 +8,8 @@ ActiveAdmin.register Talent do
       f.input    :l_name
       f.input    :e_f_name
       f.input    :e_l_name
-      f.input    :sex
-      f.input    :dob
+      f.input    :sex, as: :select, collection: ['男性', '女性', 'その他'], prompt: "選択してください"
+      f.input    :dob, as: :date_picker
       f.input    :blood
       f.input    :height
       f.input    :weight
