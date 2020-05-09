@@ -10,7 +10,7 @@ ActiveAdmin.register Talent do
       f.input    :e_l_name
       f.input    :sex, as: :select, collection: ['男性', '女性', 'その他'], prompt: "選択してください"
       f.input    :dob, as: :date_picker
-      f.input    :blood
+      f.input    :blood, as: :select, collection: ['A型', 'B型', 'O型', 'AB型'], prompt: "選択してください"
       f.input    :height
       f.input    :weight
       f.input    :chest
