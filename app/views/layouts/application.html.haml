@@ -2,14 +2,16 @@
 %html
   %head
     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
-    %link{href: "slick-theme.css", rel: "stylesheet", type: "text/css"}/
-    %link{href: "slick.css", rel: "stylesheet", type: "text/css"}/
-    %script{src: "http://code.jquery.com/jquery-3.1.0.min.js", type: "text/javascript"}　
-    %script{src: "slick.js", type: "text/javascript"}
     %title Coroncoron
     = csrf_meta_tags
     = csp_meta_tag
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    = stylesheet_link_tag    "https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css"
+    = javascript_include_tag "https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"
   %body
+    
     = yield
+
+    
+    

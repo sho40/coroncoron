@@ -1,13 +1,26 @@
+-# .home_contents__box__right__slider
+-#   .home_contents__box__right__slider__wrapper
+  -# = image_tag 'model1.jpeg', class: "slide-item"
+  -# = image_tag 'model2.jpeg', class: "slide-item"
+  -# = image_tag 'model3.jpeg', class: "slide-item"
 
-.home_contents__box__right__slider
-  .home_contents__box__right__slider__wrapper
-    %ul
-      %li
-        = image_tag 'model1.jpeg', class: "slide-item"
-      %li
-        = image_tag 'model2.jpeg', class: "slide-item"
-      %li
-        = image_tag 'model3.jpeg', class: "slide-item"
+-#   .home_contents__box__right__slider__pagination
+
+.swiper-container
+  .swiper-wrapper
+    .swiper-slide
+      = image_tag 'model1.jpeg', class: "swiper-slide"
+    .swiper-slide
+      = image_tag 'model2.jpeg', class: "swiper-slide"
+    .swiper-slide
+      = image_tag 'model3.jpeg', class: "swiper-slide"
+    .swiper-slide
+      = image_tag 'model4.jpeg', class: "swiper-slide"
+
+  / If we need pagination
+  .swiper-pagination
+
+
 
 
 

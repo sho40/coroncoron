@@ -1,15 +1,12 @@
-.home_contents__box__right__slider {
+
+
+.swiper-container {
   width: calc(60vw - 18rem);
   height: 300px;
-  overflow: hidden;
-  &__wrapper {
-    width: 100%;
-    display: flex;
-  }
 }
-.slide-item {
+
+.swiper-slide {
   object-fit: cover;
   width: calc(60vw - 18rem);
   height: 300px;
-  
 }
