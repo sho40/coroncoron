@@ -1,2 +1,18 @@
 = render 'homes/header'
-ニュース一覧
+.news-content
+  .news-content__title NEWS
+  .news-content__list
+    - @news.each do |n|
+      .news-content__list__article
+        .news-content__list__article__date
+          = n.date
+        .news-content__list__article__bottom
+          .news-content__list__article__bottom__talent-name
+            高村義文
+            -# = n.talent.name
+          .news-content__list__article__bottom__text
+            = n.text
+
+  .pagenate
+    = paginate @news
+
