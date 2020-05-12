@@ -1,29 +1,31 @@
-$(function(){
-  var mySwiper = new Swiper ('.swiper-container', {
-    loop: true,
-    speed: 600,
-    slidesPerView: 1,
-    direction: 'horizontal',
-    effect: 'slide',
+$(document).on('turbolinks:load',function(){
+  $(function(){
+    var mySwiper = new Swiper ('.swiper-container', {
+      loop: true,
+      speed: 600,
+      slidesPerView: 1,
+      direction: 'horizontal',
+      effect: 'slide',
 
-    autoplay: {
-      delay: 3000,
-      stopOnLast: false,
-      disableOnInteraction: true
-    },
-
-    breakpoints: {
-      980: {
-        slidesPerView: 1,
+      autoplay: {
+        delay: 3000,
+        stopOnLast: false,
+        disableOnInteraction: true
       },
 
-      640: {
-        slidesPerView: 1,
-      }
-    },
+      breakpoints: {
+        980: {
+          slidesPerView: 1,
+        },
 
-    pagination: {
-      el: '.swiper-pagination',
-    },
-  })
+        640: {
+          slidesPerView: 1,
+        }
+      },
+
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    })
+  });
 });
