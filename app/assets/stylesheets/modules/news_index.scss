@@ -1,0 +1,41 @@
+.news-content {
+  padding: 4% 20% 0;
+  display: block;
+  &__title {
+    font-size: 40px;
+  }
+  &__list {
+    margin-top: 4%;
+    &__article {
+      margin-bottom: 3%;
+      display: block;
+      &__date {
+        border-bottom: dashed 1px #707070;
+        font-size: smaller;
+        color: #707070;
+      }
+      &__bottom {
+        display: flex;
+        margin-top: .3em;
+        color: #333;
+        &__talent-name {
+          &::after {
+            content: '|';
+            margin: 0 .5em;
+          }
+        }
+      }
+    }
+  }
+  .pagenate {
+    margin-bottom: 8rem;
+  }
+  .pagenate a{
+    text-decoration: none;
+    color: $mainRed;
+  }
+  .pagenate span {
+    margin: .2em;
+    padding: .2em;
+  }
+}
