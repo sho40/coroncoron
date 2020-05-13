@@ -1,4 +1,4 @@
-$(function () {
+$(document).on('turbolinks:load', function() {
   $(".show-talent-image__sub__image").first().addClass("active"); // 1枚目の小画像をアクティブに変更
   $('.small-img').click(function () { // 小画像がクリックされたらイベント発火
     image_url = $(this).attr("src"); // クリックされた画像のPATHを取得
