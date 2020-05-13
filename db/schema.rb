@@ -13,6 +13,7 @@
 
 ActiveRecord::Schema.define(version: 2020_05_13_064818) do
 
+
   create_table "active_admin_comments", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "namespace"
     t.text "body"
