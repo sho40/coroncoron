@@ -1,2 +1,15 @@
 = render 'homes/header'
-タレント一覧
+.talent-index
+  .talent-index__talent-list
+    - @talents.each do |t|
+      .talent-index__talent-list__box
+        .talent-index__talent-list__box__image
+        .talent-index__talent-list__box__role
+          = t.role
+        .talent-index__talent-list__box__name
+          = t.l_name
+          = t.f_name
+        .talent-index__talent-list__box__eng-name
+          = t.e_l_name
+          = t.e_f_name
+= render 'homes/footer'
