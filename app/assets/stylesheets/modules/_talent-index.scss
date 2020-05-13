@@ -1,0 +1,39 @@
+.talent-index {
+  background: $backGray;
+  height: 100%;
+  padding: 3% 0;
+  &__talent-list {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    &__box {
+      height: 26rem;
+      width: 22%;
+      display: block;
+      margin-right: 3%;
+      &__image {
+        width: auto;
+        height: 70%;
+        background: red;
+      }
+      &__role {
+        padding: .5rem 0;
+        text-align: center;
+        color: $mainRed;
+        font-size: 18px;
+      }
+      &__name {
+        text-align: center;
+        font-size: 22px;
+        font-weight: 500;
+        letter-spacing: .2em;
+      }
+      &__eng-name {
+        padding: .5rem 0;
+        text-align: center;
+        font-size: smaller;
+      }
+    }
+  }
+}
