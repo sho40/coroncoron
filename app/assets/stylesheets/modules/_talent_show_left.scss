@@ -6,6 +6,7 @@
     .large-img {
       width: 100%;
       height: 30rem;
+      object-fit: cover;
     }
   }
   &__sub {
@@ -18,6 +19,7 @@
       .small-img {
         height: 100%;
         width: 100%;
+        object-fit: cover;
         cursor: pointer;
       }
       .blanc-img {
