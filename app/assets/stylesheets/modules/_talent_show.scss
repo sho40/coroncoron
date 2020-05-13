@@ -1,0 +1,22 @@
+.talent-show-wrapper {
+  width: 950px;
+  margin: 0 auto;
+  padding: 2% 0;
+  &__contents {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    &__left {
+      width: 48%;
+      background-color: darkcyan;
+    }
+    &__right {
+      width: 48%;
+      background-color: darkgoldenrod;
+    }
+  }
+  &__media-contents {
+    margin-top: 2%;
+    background-color: darkgreen;
+  }
+}

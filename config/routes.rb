@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   resources :homes, only: [:index]
 
   # タレント画面
-  resources :talents, only: [:index]
+  resources :talents, only: [:index, :show]
 
   # ニュース画面
   resources :news, only: [:index]
