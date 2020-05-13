@@ -7,4 +7,5 @@ class TalentsController < ApplicationController
     @talents = Talent.all.order(created_at: "ASC")
     @talent = Talent.find(params[:id])
   end
+
 end
