@@ -13,8 +13,8 @@ ActiveAdmin.register Talent do
       f.input    :blood, as: :select, collection: ['A型', 'B型', 'O型', 'AB型'], prompt: "選択してください"
       f.input    :height
       f.input    :weight
-      f.input    :chest
-      f.input    :waist_bust
+      f.input    :chest_bust
+      f.input    :waist
       f.input    :hips
       f.input    :shoes
       f.input    :birthplace

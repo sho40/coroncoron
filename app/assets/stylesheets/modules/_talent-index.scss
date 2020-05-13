@@ -13,9 +13,13 @@
       display: block;
       margin-right: 3%;
       &__image {
-        width: auto;
+        width: 100%;
         height: 70%;
-        background: red;
+        object-fit: cover;
+        &__link {
+          width: 100%;
+          height: 100%;
+        }
       }
       &__role {
         padding: .5rem 0;
