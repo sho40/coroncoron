@@ -5,20 +5,19 @@
     width: fit-content;
     .large-img {
       width: 100%;
-      height: 100%;
+      height: 30rem;
     }
   }
   &__sub {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    // background-color: darkorange;
     &__image {
       width: 37%;
       height: 10rem;
       .small-img {
-        // width: 100%;
         height: 100%;
+        cursor: pointer;
       }
     }
   }
