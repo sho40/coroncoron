@@ -1,2 +1,5 @@
 = render 'homes/header'
 タレント一覧
+- @talents.each do |t|
+  = link_to talent_path(t.id), class: "user--edit" do
+    = t.f_name
