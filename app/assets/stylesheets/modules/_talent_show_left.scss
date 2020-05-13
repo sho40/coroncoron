@@ -1,7 +1,6 @@
 .show-talent-image {
   &__main {
-    height: 35rem;
-    margin-bottom: 3%;
+    margin-bottom: 1%;
     height: 100%;
     width: fit-content;
     .large-img {
@@ -12,12 +11,13 @@
   &__sub {
     display: flex;
     justify-content: space-between;
-    width: fit-content;
+    width: 100%;
+    // background-color: darkorange;
     &__image {
-      width: 28%;
-      height: 10.5rem;
+      width: 37%;
+      height: 10rem;
       .small-img {
-        width: 100%;
+        // width: 100%;
         height: 100%;
       }
     }
