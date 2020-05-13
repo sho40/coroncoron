@@ -8,11 +8,10 @@
     width: 100%;
     &__left {
       width: 48%;
-      background-color: darkcyan;
     }
     &__right {
       width: 48%;
-      background-color: darkgoldenrod;
+      display: block;
     }
   }
   &__media-contents {

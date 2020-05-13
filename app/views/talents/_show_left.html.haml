@@ -1,1 +1,17 @@
-写真
+.show-talent-image
+  .show-talent-image__main
+    = image_tag ("#{@talent.images[0].url.url}"), class: "large-img"
+  .show-talent-image__sub
+    .show-talent-image__sub__image
+      = image_tag ("#{@talent.images[0].url.url}"), class: "small-img"
+    .show-talent-image__sub__image
+      - if @talent.images[1].present?
+        = image_tag ("#{@talent.images[1].url.url}"), class: "small-img"
+      - else
+        .blanc-img
+    .show-talent-image__sub__image
+      - if @talent.images[2].present?
+        = image_tag ("#{@talent.images[2].url.url}"), class: "small-img"
+      - else
+        .blanc-img
+

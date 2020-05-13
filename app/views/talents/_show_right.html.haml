@@ -1,1 +1,43 @@
-紹介
+.talent-show__detail
+  .talent-show__detail__header
+    %h2
+      = @talent.role
+    %h1
+      = @talent.l_name
+      = @talent.f_name
+    %p
+      = @talent.e_l_name
+      = @talent.e_f_name
+  %table.talent-show__detail__data
+    - unless @talent.dob.blank?
+      %tr
+        %th DATE OF BIRTH
+        %td
+          = "#{@talent.dob.strftime('%Y年%m月%d日')}"
+    %tr
+      %th SIZE
+      %td
+        - unless @talent.height.blank?
+          = "T#{@talent.height}"
+        - unless @talent.chest_bust.blank?
+          = "/C#{@talent.chest_bust}"
+        - unless @talent.waist.blank?
+          = "/W#{@talent.waist}"
+        - unless @talent.hips.blank?
+          = "/H#{@talent.hips}"
+        - unless @talent.shoes.blank?
+          = "/S#{@talent.shoes}"
+    - unless @talent.birthplace.blank?
+      %tr
+        %th BIRTHPLACE
+        %td
+          = "#{@talent.birthplace}"
+    - unless @talent.blood.blank?
+      %tr
+        %th BLOOD TYPE
+        %td
+          = "#{@talent.blood}"
+          
+
+
+

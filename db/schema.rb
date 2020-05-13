@@ -10,7 +10,6 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-
 ActiveRecord::Schema.define(version: 2020_05_13_064818) do
 
 
@@ -40,6 +39,14 @@ ActiveRecord::Schema.define(version: 2020_05_13_064818) do
     t.index ["reset_password_token"], name: "index_admin_users_on_reset_password_token", unique: true
   end
 
+  create_table "images", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.string "url"
+    t.bigint "talent_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["talent_id"], name: "index_images_on_talent_id"
+  end
+
   create_table "news", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "category"
     t.text "text"
@@ -58,8 +65,8 @@ ActiveRecord::Schema.define(version: 2020_05_13_064818) do
     t.string "blood"
     t.string "height"
     t.string "weight"
-    t.string "chest"
-    t.string "waist_bust"
+    t.string "chest_bust"
+    t.string "waist"
     t.string "hips"
     t.string "shoes"
     t.string "birthplace"
@@ -69,4 +76,5 @@ ActiveRecord::Schema.define(version: 2020_05_13_064818) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "images", "talents"
 end
