@@ -1,0 +1,32 @@
+.talent-show__detail {
+  &__header {
+    display: table;
+    width: 100%;
+    & h2 {
+      display: table-row;
+      color: $mainRed;
+      vertical-align: middle;
+      font-size: smaller;
+    }
+    & h1 {
+      display: table-cell;
+      vertical-align: middle;
+      font-size: x-large;
+      width: 50%;
+    }
+    & p {
+      display: table-cell;
+      vertical-align: bottom;
+      font-size: smaller;
+    }
+  }
+  &__data {
+    margin-top: 10%;
+    font-size: smaller;
+    width: 100%;
+    height: 200px;
+    & th {
+      width: 50%;
+    }
+  }
+}
