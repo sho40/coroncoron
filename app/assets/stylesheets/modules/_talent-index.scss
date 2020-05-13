@@ -16,6 +16,10 @@
         width: auto;
         height: 70%;
         background: red;
+        &__link {
+          width: 100%;
+          height: 100%;
+        }
       }
       &__role {
         padding: .5rem 0;

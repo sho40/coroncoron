@@ -4,6 +4,7 @@
     - @talents.each do |t|
       .talent-index__talent-list__box
         .talent-index__talent-list__box__image
+        = link_to "詳細", talent_path(t.id) #// 仮
         .talent-index__talent-list__box__role
           = t.role
         .talent-index__talent-list__box__name
