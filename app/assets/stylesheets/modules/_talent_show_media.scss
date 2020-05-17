@@ -1,0 +1,9 @@
+.show-talent-media {
+  background-color: $backGray;
+  padding: 10px;
+  & ul{
+    display: flex;
+    justify-content: space-around;
+  }
+
+}
