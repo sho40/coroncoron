@@ -11,6 +11,7 @@
     }
     &__right {
       width: 48%;
+      display: block;
     }
   }
   &__media-contents {
@@ -20,6 +21,7 @@
     text-align: center;
     margin-top: 2%;
     .btn-talents{
+      display: block;
       box-sizing: border-box;
       width: 12rem;
       height: 2rem;
