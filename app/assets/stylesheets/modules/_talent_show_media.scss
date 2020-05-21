@@ -1,0 +1,26 @@
+.show-talent-media {
+  background-color: $backGray;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  &__list-box {
+    & ul{
+      display: flex;
+      font-size: large;
+      & li {
+        background-color: $backWhite;
+        padding: 0.51rem 2rem;
+        margin-right: 1%;
+        transition: color 0.5s, background-color 0.5s;
+        cursor: pointer;
+      }
+      & li:hover {
+        background-color: $mainRed;
+        color: #ffffff;
+      }
+    }
+  }
+}
+.show-talent-content {
+  padding: 2rem;
+  background-color: $backWhite;
+}
