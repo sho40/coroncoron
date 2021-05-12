@@ -2,6 +2,6 @@
   "name": "coroncoron",
   "private": true,
   "dependencies": {
-    "swiper": "^5.3.8"
+    "swiper": "^6.5.1"
   }
 }
